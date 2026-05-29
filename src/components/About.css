@@ -1,0 +1,5 @@
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:50px}
+.stat{text-align:center;padding:30px 16px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}
+.stat .num{font-size:2.6rem;font-weight:800;background:linear-gradient(100deg,var(--cyan),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat .lbl{color:var(--muted);font-size:.8rem;font-family:var(--mono);margin-top:6px}
+@media(max-width:860px){ .stats{grid-template-columns:repeat(2,1fr)} }

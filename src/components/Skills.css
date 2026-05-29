@@ -1,0 +1,8 @@
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:46px}
+.skill-card{background:var(--panel);backdrop-filter:blur(16px);border:1px solid var(--line);border-radius:18px;padding:26px;transition:.35s}
+.skill-card:hover{transform:translateY(-6px);border-color:var(--cyan);box-shadow:var(--glow)}
+.skill-card h4{font-size:1.05rem;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.skill-card h4 i{width:9px;height:9px;border-radius:3px;display:inline-block}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{font-family:var(--mono);font-size:.78rem;color:var(--muted);background:rgba(120,140,255,.07);border:1px solid var(--line);padding:6px 11px;border-radius:8px;transition:.25s}
+.skill-card:hover .pill{color:var(--txt)}

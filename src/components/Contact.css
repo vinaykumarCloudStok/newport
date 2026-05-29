@@ -1,0 +1,6 @@
+.contact-box{margin-top:0;border:1px solid var(--line);border-radius:24px;background:var(--panel);backdrop-filter:blur(18px);padding:48px;text-align:center}
+.contact-box .eyebrow{justify-content:center}
+.contact-links{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:30px}
+.contact-links a{display:flex;align-items:center;gap:9px;padding:13px 22px;border:1px solid var(--line);border-radius:50px;text-decoration:none;color:var(--txt);font-size:.92rem;transition:.3s}
+.contact-links a:hover{border-color:var(--cyan);color:var(--cyan);transform:translateY(-3px)}
+.contact-links .ci{font-family:var(--mono);font-weight:700}

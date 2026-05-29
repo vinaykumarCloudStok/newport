@@ -1,0 +1,6 @@
+.serv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:50px}
+.serv{padding:26px;border:1px solid var(--line);border-radius:16px;background:var(--panel);transition:border-color .3s,box-shadow .3s}
+.serv:hover{border-color:var(--lime);box-shadow:0 0 30px rgba(180,255,58,.15)}
+.serv .ic{font-size:1.6rem;margin-bottom:12px}
+.serv h4{font-size:1.05rem;margin-bottom:6px}
+.serv p{color:var(--muted);font-size:.88rem}
